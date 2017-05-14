@@ -1,0 +1,33 @@
+$base_size: 6px;
+$grid_size: 8px;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font: 1.6rem/1 Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  display: grid;
+}
+
+:focus {
+	outline: none;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.base-padding {
+	padding: calc($base_size * 2) $grid_size;
+}
